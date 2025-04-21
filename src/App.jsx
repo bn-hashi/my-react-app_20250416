@@ -1,10 +1,10 @@
 import React from "react";
-import UserCard from "./components/UserCard";
+import HelloComponent from "./components/HelloComponent";
 
 function App() {
   return (
     <div>
-      <UserCard name="Taro" age={28} />
+      <HelloComponent />
     </div>
   );
 }
