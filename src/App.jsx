@@ -1,15 +1,10 @@
-import { useState } from 'react';
+import React from "react";
+import HelloComponent from "./components/HelloComponent";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
-      <h1>ViteとReactで始めるアプリ開発</h1>
-      <p>カウント: {count}</p>
-      <button onClick={() => setCount(count + 1)}>
-        カウントアップ
-      </button>
+      <HelloComponent />
     </div>
   );
 }
