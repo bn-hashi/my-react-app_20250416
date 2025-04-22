@@ -4,10 +4,12 @@ import React, { useEffect } from "react";
 function Timer() {
   useEffect(() => {
     console.log("Mounted");
+
     return () => {
-      console.log("Unmounted")
+      console.log("Unmounted");
     };
-  },{} );
+  }, []);
+  
   return <div>Timer Active</div>;
 }
 
